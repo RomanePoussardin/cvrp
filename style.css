@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+body {
+	background-color: pink;
+}
+
+h1{
+	color: #767171;
+	text-align: center;
+	font-family: 'lato', cursive;
+	font-size: 45px;
+	}
+
+h2{text-decoration: underline;
+text-align: center;
+color: #767171;
+font-family: 'lato', cursive;
+font-size: 30px;
+}
+
+h3{text-align: center;
+	font-family: 'Lato', cursive;
+	font-size: 15px;
+}
+
+p{
+	font-family: 'Lato', cursive;
+}
+
+ul{
+	font-family: 'Lato', cursive;
+	font-size: 20px;
+}
+
+img{
+	border-radius: 10%;
+}
+
+#avatar{
+	width: 200px;
+	height: 50px
+	border-radius: 30%;
+	border: 1px solid grey;
+}
+
+a{
+	text-decoration: none;
+}
+
+.button{
+	color: black;
+	background: beige;
+	font-weight: bold;
+	text-decoration: underline;
+	transition: 1s;
+	font-size: 20px;
+}
+
+.button:hover {
+	background-color: white;
+	color: red;
+	transition: 1s;
+}
+
+.list-inline {
+	padding: 0;
+	list-style: none;
+	font-size: 0px;
+}
+
+.fa-brands{
+	color:rgb(0,0,0,0.4);
+	font-size: 48px;
+}
+
+.fa-brands:hover{
+	color: black;
+}
+
+.list-inline li {
+	display: inline;
+	margin: 0 16px;
+	font-size: 20px;
+}
+
+li{font-family: 'Lato', cursive;
+font-size: 20px;
+}
+
+div{
+	background-color: black;
+	text-align: center;
+	padding: 5px;
+}
+
+.card{
+box-shadow: 10px 5px 10px grey;
+padding: 10px;
+background-color: white;
+width: 50%;
+margin: 10px auto;
+border-radius: 6px;
+box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.4);
+font-family: 'Lato', cursive;
+}
+
+@media (min-width: 576px) {
+	div{
+		width: 450px;
+	}
+}
+
+@media (min-width: 768px) {
+	div{
+		width: 550px;
+	}
+}
+
+@media (min-width: 992px) {
+	div{
+		width: 750px;
+	}
+}
+
+
+.list-left{
+column-count: 1;
+}

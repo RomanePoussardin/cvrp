@@ -1,0 +1,104 @@
+h1 {
+	color: grey;
+	background-color: #F1E3C9;
+}
+
+a {
+
+}
+
+body {
+	background-color: pink;
+}
+
+.hello{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.studies{
+	text-align: center;
+	border: 2px dashed black;
+	width: 150px;
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+.avatar {
+	background-image: url("images/mypic.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 210px;
+	width: 200px;
+	border-radius: 50%;
+	margin: auto;
+
+}
+.logo{
+	display: block;
+	width: 120px;
+	margin: 10px auto;
+
+}
+
+.text{
+	text-align: center;
+;
+}
+.container{
+	text-align: center;
+}
+
+.website{
+	text-align: center;
+	border: 2px dashed black;
+	width: 300px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+.button{
+	padding:10px;
+	background-color: #f1e3c9;
+	border-radius: 10px;
+}
+
+.presentation{
+	text-align: center;
+	border: 2px dashed black;
+	width: 300px;
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+.card1{
+	box-shadow: 10px 5px 10px grey;
+	height: 320px;
+	border-radius: 5px;
+
+}
+.card2{
+	box-shadow: 10px 5px 10px grey;
+	height: 120px;
+	padding: 20px
+}
+.card3{
+	box-shadow: 10px 5px 10px grey;
+	height: 200px;
+	padding: 20px
+}
+.card4{
+	box-shadow: 10px 5px 10px grey;
+	padding: 20px
+}
+
+.fab:hover{
+	color: black;
+}
